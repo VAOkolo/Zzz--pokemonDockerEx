@@ -1,6 +1,6 @@
 const express = require('express');
 const app = express();
-const data = require('./data/pokemon')
+
 const pokemonRoutes = require('./controllers/pokemons')
 //for Parsing data that comes from the user add after failing to send data
 const bodyParser = require('body-parser');
